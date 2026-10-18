@@ -20957,21 +20957,19 @@ function Bv({ onNext: g }) {
     [c, o] = I.useState(!1),
     h = I.useRef(null),
     p = [
-      {
-        src: "/james 1.jfif",
-        tag: "EXHIBIT #01",
-        title: "Handsome Radiance 🌟",
-      },
-      { src: "/james 2.jfif", tag: "EXHIBIT #02", title: "Sweet Smile ✨" },
-      { src: "/james 3.jfif", tag: "EXHIBIT #03", title: "Cool & Joyful 🌸" },
-      { src: "/james 4.jfif", tag: "EXHIBIT #04", title: "Warm Atmosphere ☀️" },
-      {
-        src: "/james 5.jfif",
-        tag: "EXHIBIT #05",
-        title: "Precious Moments 💎",
-      },
-      { src: "/james 6.jfif", tag: "EXHIBIT #06", title: "Sweet Memories 💖" },
-      { src: "/james 7.jfif", tag: "EXHIBIT #07", title: "Favorite View 🌺" },
+      { src: "/photo_1.jpg", tag: "MEMORI #01", title: "Papi Adel Tercinta ❤️" },
+      { src: "/photo_2.png", tag: "MEMORI #02", title: "Senyum Terbaikmu ✨" },
+      { src: "/photo_3.jpeg", tag: "MEMORI #03", title: "Momen Bahagia Bersama 🌸" },
+      { src: "/photo_4.jpeg", tag: "MEMORI #04", title: "Laki-laki Hebatku ☀️" },
+      { src: "/photo_5.jpeg", tag: "MEMORI #05", title: "Kenangan Paling Manis 💎" },
+      { src: "/photo_6.jpeg", tag: "MEMORI #06", title: "Suami & Ayah Terbaik 💖" },
+      { src: "/photo_7.jpeg", tag: "MEMORI #07", title: "Cinta Sejatiku 🌺" },
+      { src: "/photo_8.jpeg", tag: "MEMORI #08", title: "Garda Terdepanku 🌟" },
+      { src: "/photo_9.jpeg", tag: "MEMORI #09", title: "Kebersamaan Hangat 🍃" },
+      { src: "/photo_10.jpeg", tag: "MEMORI #10", title: "Pelindung Keluargaku 💫" },
+      { src: "/photo_11.jpg", tag: "MEMORI #11", title: "Senyuman Yang Menenangkan 🕊️" },
+      { src: "/photo_12.jpg", tag: "MEMORI #12", title: "Hari Yang Indah Bersamamu 🌿" },
+      { src: "/photo_13.jpg", tag: "MEMORI #13", title: "Selamanya di Hatiku 💍" }
     ];
   (I.useEffect(() => {
     const S = pt.timeline();
