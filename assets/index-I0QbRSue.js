@@ -21377,7 +21377,7 @@ function Bv({ onNext: g }) {
         className: "gallery-controls btn-primary",
         onClick: g,
         style: { width: "100%", maxWidth: 370 },
-        children: ["Lanjutkan ke Kartu Ucapan 🎴 ", x.jsx(Vr, { size: 16 })],
+        children: ["Lanjutkan ke Video Kenangan 🎬 ", x.jsx(Vr, { size: 16 })],
       }),
     ],
   });
@@ -22263,6 +22263,161 @@ function Hv() {
     ),
   });
 }
+
+function Vv({ onNext: g }) {
+  const l = I.useRef(null),
+    r = I.useRef(null);
+  I.useEffect(() => {
+    pt.fromTo(
+      l.current,
+      { opacity: 0, y: 35, scale: 0.95 },
+      { opacity: 1, y: 0, scale: 1, duration: 0.7, ease: "back.out(1.3)" }
+    );
+  }, []);
+  return x.jsx("div", {
+    className: "stage stage--scroll",
+    children: x.jsxs("div", {
+      ref: l,
+      className: "glass",
+      style: {
+        width: "100%",
+        maxWidth: "380px",
+        padding: "26px 20px",
+        textAlign: "center",
+        background: "linear-gradient(170deg, #ffffff 0%, #fff1f2 50%, #ffe4e6 100%)",
+        border: "1.5px solid rgba(225,29,72,0.35)",
+        boxShadow: "0 16px 48px rgba(100,5,25,0.15)",
+        borderRadius: 28,
+        position: "relative",
+      },
+      children: [
+        x.jsxs("div", {
+          style: { marginBottom: 18 },
+          children: [
+            x.jsxs("div", {
+              style: {
+                display: "inline-flex",
+                alignItems: "center",
+                gap: 6,
+                padding: "5px 14px",
+                borderRadius: 20,
+                background: "rgba(225,29,72,0.12)",
+                border: "1px solid rgba(225,29,72,0.25)",
+                marginBottom: 10,
+              },
+              children: [
+                x.jsx(En, { size: 13, color: "#be123c" }),
+                x.jsx("span", {
+                  style: {
+                    fontSize: "0.72rem",
+                    fontWeight: 700,
+                    color: "#be123c",
+                    letterSpacing: 1.5,
+                    textTransform: "uppercase",
+                  },
+                  children: "Video Kenangan Spesial ❤️📹",
+                }),
+              ],
+            }),
+            x.jsx("h1", {
+              style: {
+                fontFamily: "var(--font-display)",
+                fontSize: "2rem",
+                color: "#be123c",
+                lineHeight: 1.15,
+                marginBottom: 6,
+              },
+              children: "Momen Manis Bersamamu ❤️🔥",
+            }),
+            x.jsx("p", {
+              style: {
+                fontFamily: "var(--font-cute)",
+                fontSize: "0.82rem",
+                color: "#9f1239",
+                fontWeight: 600,
+                lineHeight: 1.5,
+                margin: 0,
+              },
+              children: "Setiap detik yang terekam bersamamu selalu menjadi hal yang paling indah untuk diputar berulang kali 🎬✨",
+            }),
+          ],
+        }),
+        x.jsxs("div", {
+          style: {
+            position: "relative",
+            width: "100%",
+            borderRadius: 20,
+            overflow: "hidden",
+            boxShadow: "0 12px 32px rgba(100,5,25,0.2)",
+            background: "#000",
+            marginBottom: 20,
+            border: "2px solid rgba(255,255,255,0.8)",
+          },
+          children: [
+            x.jsx("video", {
+              ref: r,
+              src: "/video_1.mov",
+              controls: !0,
+              playsInline: !0,
+              style: {
+                width: "100%",
+                maxHeight: "360px",
+                display: "block",
+                objectFit: "contain",
+                background: "#000",
+              },
+            }),
+          ],
+        }),
+        x.jsxs("div", {
+          style: {
+            background: "rgba(255,255,255,0.9)",
+            borderRadius: 18,
+            padding: "16px 16px",
+            border: "1px solid rgba(225,29,72,0.2)",
+            boxShadow: "0 4px 16px rgba(100,5,25,0.06)",
+            marginBottom: 20,
+            textAlign: "left",
+            lineHeight: 1.6,
+          },
+          children: [
+            x.jsx("p", {
+              style: {
+                fontFamily: "var(--font-body)",
+                fontSize: "0.84rem",
+                color: "var(--berry)",
+                fontWeight: 600,
+                fontStyle: "italic",
+                margin: 0,
+              },
+              children: '"Terima kasih ya pi untuk setiap tawa, cerita, dan kehangatan yang kamu hadirkan di hidupku. Semoga kita bisa menciptakan lebih banyak lagi video dan memori bahagia bersama sampai tua nanti ❤️"',
+            }),
+            x.jsx("div", {
+              style: {
+                marginTop: 8,
+                fontSize: "0.74rem",
+                fontWeight: 700,
+                color: "#be123c",
+                textAlign: "right",
+              },
+              children: "— Sayang Papi Adel Selamanya 💕",
+            }),
+          ],
+        }),
+        x.jsxs("button", {
+          className: "btn-primary",
+          onClick: g,
+          style: { width: "100%" },
+          children: [
+            "Lanjut ke Kartu Ucapan 💌 ",
+            x.jsx(Vr, { size: 16 }),
+          ],
+        }),
+      ],
+    }),
+  });
+}
+
 function qv() {
   const [g, l] = I.useState("splash"),
     r = I.useRef(null),
@@ -22317,7 +22472,8 @@ function qv() {
           g === "puzzle" && x.jsx(Av, { onComplete: () => i("letter") }),
           g === "letter" && x.jsx(Dv, { onNext: () => i("cake") }),
           g === "cake" && x.jsx(Nv, { onShowGallery: () => i("gallery") }),
-          g === "gallery" && x.jsx(Bv, { onNext: () => i("wishcard") }),
+          g === "gallery" && x.jsx(Bv, { onNext: () => i("video") }),
+          g === "video" && x.jsx(Vv, { onNext: () => i("wishcard") }),
           g === "wishcard" &&
             x.jsx(Uv, {
               onNext: () => i("flower"),
