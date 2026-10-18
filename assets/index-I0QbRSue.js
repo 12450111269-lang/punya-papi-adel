@@ -19471,7 +19471,7 @@ function Ov() {
             }),
             x.jsx("img", {
               src: "/james 5.jfif",
-              alt: "James",
+              alt: "Papi Adel",
               style: { width: "100%", height: "100%", objectFit: "cover" },
               onError: (r) => {
                 r.target.src = "/james 5.jfif";
@@ -19647,7 +19647,7 @@ function Rv() {
       icon: "🌟",
       badge: "DREAM 02",
       title: "Endless Support From Afar",
-      text: "Meskipun jauh, aku bakal selalu ada buat dengerin cerita kamu, dukung setiap langkah, impian, dan karir James. You will never walk alone.",
+      text: "Meskipun jauh, aku bakal selalu ada buat dengerin cerita kamu, dukung setiap langkah, impian, dan karir Papi Adel. You will never walk alone.",
       gradient:
         "linear-gradient(135deg, rgba(59,130,246,0.2), rgba(220,252,231,0.4))",
     },
@@ -19847,7 +19847,7 @@ function Cv() {
           children: [
             x.jsx("span", {
               children:
-                "Semoga di usiamu yang ke-21 ini, James selalu diberikan kesehatan, kelancaran rezeki, dan perlindungan di mana pun kamu berada. 🤲🏻💖",
+                "Semoga di usiamu yang ke-36 ini, Papi Adel selalu diberikan kesehatan, kelancaran rezeki, dan perlindungan di mana pun kamu berada. 🤲🏻💖",
             }),
             x.jsx("span", {
               children:
@@ -19859,11 +19859,11 @@ function Cv() {
             }),
             x.jsx("span", {
               children:
-                "May all your dreams, ambitions, and wishes at 21 come true beautifully, one by one. 🥂",
+                "May all your dreams, ambitions, and wishes at 36 come true beautifully, one by one. 🥂",
             }),
             x.jsx("span", {
               children:
-                "Terima kasih udah bertahan dan selalu memperjuangkan hubungan LDR ini bareng aku. Happy 21st Birthday, my love! 🎂🎁💝",
+                "Terima kasih udah bertahan dan selalu memperjuangkan hubungan LDR ini bareng aku. Happy 36th Birthday, my love! 🎂🎁💝",
             }),
           ].map((r, i) =>
             x.jsxs(
@@ -20093,7 +20093,7 @@ function Dv({ onNext: g }) {
                     fontWeight: 600,
                   },
                   children:
-                    "Pesan hangat dan doa terbaik di usiamu yang ke-21 🌿",
+                    "Pesan hangat dan doa terbaik di usiamu yang ke-36 🌿",
                 }),
               ],
             }),
@@ -21578,7 +21578,7 @@ function Uv({ onNext: g, onRestart: l }) {
                       },
                       children: x.jsx("img", {
                         src: "/james 1.jfif",
-                        alt: "James",
+                        alt: "Papi Adel",
                         style: {
                           width: "100%",
                           height: "100%",
