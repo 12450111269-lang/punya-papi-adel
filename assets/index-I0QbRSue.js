@@ -20969,7 +20969,17 @@ function Bv({ onNext: g }) {
       { src: "/photo_10.jpeg", tag: "MEMORI #10", title: "Pelindung Keluargaku 💫" },
       { src: "/photo_11.jpg", tag: "MEMORI #11", title: "Senyuman Yang Menenangkan 🕊️" },
       { src: "/photo_12.jpg", tag: "MEMORI #12", title: "Hari Yang Indah Bersamamu 🌿" },
-      { src: "/photo_13.jpg", tag: "MEMORI #13", title: "Selamanya di Hatiku 💍" }
+      { src: "/photo_13.jpg", tag: "MEMORI #13", title: "Selamanya di Hatiku 💍" },
+      { src: "/photo_14.jpg", tag: "MEMORI #14", title: "Potret Bahagia Kita 💕" },
+      { src: "/photo_15.jpg", tag: "MEMORI #15", title: "Tawa & Ceria Bersamamu 🌈" },
+      { src: "/photo_16.jpg", tag: "MEMORI #16", title: "Cinta yang Tak Pernah Pudar ❤️‍🔥" },
+      { src: "/photo_17.jpg", tag: "MEMORI #17", title: "Momen Terindah Kita 🌷" },
+      { src: "/photo_18.jpg", tag: "MEMORI #18", title: "Papi Terbaik di Dunia 👑" },
+      { src: "/photo_19.jpg", tag: "MEMORI #19", title: "Pelukan Paling Hangat 🤗" },
+      { src: "/photo_20.jpg", tag: "MEMORI #20", title: "Setiap Hari Bersamamu Berarti 🌟" },
+      { src: "/photo_21.jpg", tag: "MEMORI #21", title: "Kisah Kasih Indah Kita 🌹" },
+      { src: "/photo_22.jpg", tag: "MEMORI #22", title: "Langkah Bahagia Kita Berdua 🤍" },
+      { src: "/photo_23.jpg", tag: "MEMORI #23", title: "Anugerah Terindah di Hidupku 💖" }
     ];
   (I.useEffect(() => {
     const S = pt.timeline();
